@@ -40,10 +40,10 @@ You are a senior business central architect with expertise in the topic
 - Provide a basic AL code template that can be immediately adapted
 
 # Business Context:
-## Include for each technical section:
-- Business scenarios where this functionality is critical
-- Common business requirements that drive implementation decisions
-- Industry-specific considerations (manufacturing, retail, distribution, etc.)
+- Include for each technical section:
+1. Business scenarios where this functionality is critical
+2. Common business requirements that drive implementation decisions
+3. Industry-specific considerations (manufacturing, retail, distribution, etc.)
 
 # Tasks:
 Create extensive documentation of the topic. including, but not limited to:
