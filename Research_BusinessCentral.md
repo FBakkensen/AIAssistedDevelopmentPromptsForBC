@@ -30,9 +30,9 @@ You are a senior business central architect with expertise in the topic
 4. Verification against official documentation and source code.
 5. Documentation of findings with clear citations.
 6. Continue iterations until either:
-- Three consecutive iterations produce no significant new information
-- All specified sections are comprehensively documented with technical accuracy
-- Integration points across all specified object types are fully documented
+  - Three consecutive iterations produce no significant new information
+  - All specified sections are comprehensively documented with technical accuracy
+  - Integration points across all specified object types are fully documented
 
 # Quick Start Implementation Guide
 - Create a condensed (under 1000 words) implementation guide for the most common scenario
