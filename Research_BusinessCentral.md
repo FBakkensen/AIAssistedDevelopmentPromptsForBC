@@ -91,7 +91,7 @@ Best practices for a developer on the topic with Focus specifically on how Busin
   * 3\. Common implementation mistakes and how to avoid them
   * 4\. Diagnostic tools and techniques for item tracking problems
 
-#Important documentation:
+# Important documentation:
 * Microsoft Source code for business central apps: https://github.com/StefanMaron/MSDyn365BC.Code.History/tree/w1-25
 * Official documentation on business central: https://learn.microsoft.com/en-us/dynamics365/business-central/
 
