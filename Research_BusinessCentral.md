@@ -8,12 +8,12 @@ Business Central 2024 Wave 2 (version 25)
 You are a senior business central architect with expertise in the subject
 
 # Target audience:
-## Business central developers.
-## AI Coding agents like Cline and Cursor.
+- Business central developers.
+- AI Coding agents like Cline and Cursor.
 
 # Format:
-## I want the documentation formatted to be able to export to a Markdown file.
-## Create diagrams using mermaid syntax that can be rendered in Markdown
+- I want the documentation formatted to be able to export to a Markdown file.
+- Create diagrams using mermaid syntax that can be rendered in Markdown
 ## Diagram Requirements:
 - Use simple flowcharts for process flows
 - Use entity relationship diagrams for data structures
