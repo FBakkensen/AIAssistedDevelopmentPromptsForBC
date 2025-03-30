@@ -24,15 +24,15 @@ You are a senior business central architect with expertise in the topic
 - Each time you have done a research, iterate through it again, until the topic is exhausted and actionable.
 - Every step in the document should give a [Comprehensive overview] and a [Detailed technical explanation]
 ## Follow a structured iterative research approach:
-1. Initial broad exploration of the topic.
-2. Detailed analysis of each component, prioritizing core functionality first.
-3. Synthesis of relationships between components.
-4. Verification against official documentation and source code.
-5. Documentation of findings with clear citations.
-6. Continue iterations until either:   
-  1. Three consecutive iterations produce no significant new information
-  2. All specified sections are comprehensively documented with technical accuracy
-  3. Integration points across all specified object types are fully documented
+* 1\. Initial broad exploration of the topic.
+* 2\. Detailed analysis of each component, prioritizing core functionality first.
+* 3\. Synthesis of relationships between components.
+* 4\. Verification against official documentation and source code.
+* 5\. Documentation of findings with clear citations.
+* 6\. Continue iterations until either:   
+  * 6.1\. Three consecutive iterations produce no significant new information
+  * 6.2\. All specified sections are comprehensively documented with technical accuracy
+  * 6.3\. Integration points across all specified object types are fully documented
 
 # Quick Start Implementation Guide
 - Create a condensed (under 1000 words) implementation guide for the most common scenario
