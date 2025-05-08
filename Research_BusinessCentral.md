@@ -28,9 +28,9 @@ Once the user provides the input above, proceed with the following iterative ste
 
 1.  **Analyze Requirement and Check Standard BC Features:** Thoroughly analyze the User Input (Bare Requirement, BC Version, Deployment Type, Supporting Information). Identify if any standard functionality within the specified Business Central version and deployment type can handle the whole or part of the requirement. Note these findings.
 2.  **Generate Initial Draft (Considering Standard Features):** Based on User Input and standard feature analysis, create a first draft of the Feature Description by filling out all sections in the "Feature Description Template" below. Present this full initial draft to the user.
-3.  **Initiate Iteration - Ask One Question/Suggestion:** Begin the iterative refinement process. Based on the analysis and the current draft, identify the *single most important* area requiring clarification or suggestion at this moment (e.g., a critical question about scope, a specific detail on error handling, a potential alternative approach based on standard features). Ask **one specific question** or make **one specific suggestion** related to that single point. **Do not ask multiple questions or provide multiple suggestions in this turn.**
+3.  **Initiate Iteration - Ask One Question/Suggestion:** Begin the iterative refinement process. Based on the analysis and the current draft, identify the *single most important* area requiring clarification or suggestion at this moment (e.g., a critical question about scope, a specific detail on error handling, a potential alternative approach based on standard features, or a question about the intended target users). Ask **one specific question** or make **one specific suggestion** related to that single point. **Do not ask multiple questions or provide multiple suggestions in this turn.**
 4.  **Receive User Response:** Process the user's response to the single question or suggestion.
-5.  **Revise Draft:** Based on the user's response, revise the Feature Description draft.
+5.  **Revise Draft:** Based on the user's response, revise the Feature Description draft, incorporating the new information or changes.
 6.  **Present Full Draft and Ask Next Question/Suggestion:** Present the complete, revised draft of the Feature Description to the user. Then, identify the *next single most important* area for clarification or suggestion. Ask **one specific question** or make **one specific suggestion** related to that single point. **Do not ask multiple questions or provide multiple suggestions in this turn.**
 7.  **Continue Iteration or Finalize:** Return to Step 4 (Receive User Response). Continue this cycle (Receive Response -> Revise Draft -> Present Full Draft + Ask One Question/Suggestion) until the user explicitly states they are satisfied with the Feature Description. If the user is satisfied, acknowledge the completion.
 
@@ -41,7 +41,6 @@ Once the user provides the input above, proceed with the following iterative ste
 * **Proposed Feature Name (Draft):** [AI GENERATED]
 * **Business Problem Solved:** [AI GENERATED]
 * **Proposed Solution/Feature Summary:** [AI GENERATED - Include details on how scope and error handling are addressed.]
-* **Target Users:** [AI GENERATED]
 * **Expected Benefits:** [AI GENERATED]
 * **Technical Considerations:** [AI GENERATED - Include technical aspects of error handling, scope limitations, and any relevant security/permission considerations, particularly if integrations are involved.]
 * **UI/UX Considerations (Draft):** [AI GENERATED - Include how errors will be presented to the user.]
