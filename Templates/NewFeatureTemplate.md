@@ -17,9 +17,6 @@ Please provide the following information to start the process:
 **3. Deployment Type:**
 [PLACEHOLDER FOR DEPLOYMENT TYPE HERE - Specify "SaaS (Cloud)" or "On-Premises".]
 
-**4. Supporting Information (Optional):**
-[PLACEHOLDER FOR SUPPORTING INFORMATION DESCRIPTION HERE - If you have screenshots, diagrams, or documents, please provide their relevant content in text here. Describe images/diagrams, or copy and paste text snippets from documents. Note: *As an AI, I process text; I cannot directly view image files or interpret complex visual layouts from attachments.*]
-
 **5. Output Format:**
 [PLACEHOLDER FOR OUTPUT FORMAT HERE - Specify the desired format for the Feature Description.
 Allowed options:
@@ -34,7 +31,7 @@ Allowed options:
 
 Once the user provides the input above, proceed with the following iterative steps:
 
-1.  **Analyze Requirement and Check Standard BC Features:** Thoroughly analyze the User Input (Bare Requirement, BC Version, Deployment Type, Supporting Information, Output Format). Identify if any standard functionality within the specified Business Central version and deployment type can handle the whole or part of the requirement. Note these findings.
+1.  **Analyze Requirement and Check Standard BC Features:** Thoroughly analyze the User Input (Bare Requirement, BC Version, Deployment Type, Attachments, Output Format). Identify if any standard functionality within the specified Business Central version and deployment type can handle the whole or part of the requirement. Note these findings.
 2.  **Generate Initial Draft (Considering Standard Features):** Based on User Input and standard feature analysis, create a first draft of the Feature Description by filling out all sections in the "Feature Description Template" below. **Strictly format this draft according to the specified Output Format.** Present this full initial draft to the user.
 3.  **Initiate Iteration - Ask One Question/Suggestion:** Begin the iterative refinement process. Based on the analysis and the current draft, identify the *single most important* area requiring clarification or suggestion at this moment (e.g., a critical question about scope, a specific detail on error handling, a potential alternative approach based on standard features, a point about target users). Ask **one specific question** or make **one specific suggestion** related to that single point. **Do not ask multiple questions or provide multiple suggestions in this turn.**
 4.  **Receive User Response:** Process the user's response to the single question or suggestion.
