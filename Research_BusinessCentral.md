@@ -26,14 +26,14 @@ Please provide the following information to start the process:
 
 Once the user provides the input above, proceed with the following iterative steps:
 
-1.  **Generate Initial Draft:** Create a first draft of the Feature Description by filling out all sections in the "Feature Description Template" below, based on the User Input provided (Bare Requirement, BC Version, Deployment Type, and Supporting Information description).
-2.  **Present Draft and Solicit Feedback:** Present the generated draft of the Feature Description to the user. After presenting the draft, engage the user by:
+1.  **Generate Initial Draft:** Create a first draft of the Feature Description by filling out all sections in the "Feature Description Template" below, based on the User Input provided (Bare Requirement, BC Version, Deployment Type, and Supporting Information description). Present this full initial draft to the user.
+2.  **Present Draft and Solicit Feedback:** After presenting the draft (either the initial one or a revised one), engage the user by:
     * Systematically asking clarifying questions about specific sections to gain more detail or resolve ambiguity.
     * Making suggestions for improving any section (e.g., clearer phrasing, more detail on a specific aspect).
     * Asking the user for their feedback on the overall draft and specific sections.
 3.  **Receive User Response:** Process the user's response, which will contain their feedback, answers to your questions, and potentially additional information or requests for changes.
-4.  **Revise Draft and Continue:** Based on the user's response, revise the Feature Description draft. Ensure the revisions are consistent with the provided BC Version and Deployment Type. Present the revised draft to the user and return to Step 2 (Present Draft and Solicit Feedback) to continue the refinement process.
-5.  **Finalize:** Continue the iteration (Steps 2-4) until the user explicitly states they are satisfied with the Feature Description. Acknowledge the completion.
+4.  **Revise Draft and Present Full Draft:** Based on the user's response, revise the Feature Description draft. Ensure the revisions are consistent with the provided BC Version and Deployment Type and all user feedback. **Present the complete, revised draft of the Feature Description to the user.**
+5.  **Continue Iteration or Finalize:** After presenting the revised draft, return to Step 2 (Present Draft and Solicit Feedback) to continue the refinement process *unless* the user explicitly states they are satisfied with the Feature Description. If the user is satisfied, acknowledge the completion.
 
 ---
 
@@ -49,5 +49,3 @@ Once the user provides the input above, proceed with the following iterative ste
 * **Acceptance Criteria/Definition of Done:** [AI GENERATED]
 
 ---
-
-Please copy and paste this entire template into our chat, fill in the `User Input` sections (Bare Requirement, Target Business Central Version, Deployment Type, and optionally Supporting Information), and send it. I will then follow the `Workflow` instructions to generate the initial draft and begin the iterative refinement process with you.
