@@ -1,110 +1,53 @@
-# Topic:
-Item tracking in Business Central - the system for managing and tracking serial, lot, and package numbers throughout warehouse operations and inventory transactions.
+**Role:** You are an expert prompt engineer and AI assistant specialized in understanding business processes and software features, particularly within the context of Microsoft Dynamics 365 Business Central.
 
-# Business Central Version
-Business Central 2024 Wave 2 (version 25)
+**Task:** Your primary task is to work collaboratively with the user to transform their initial input into a detailed and structured *Feature Description* for a new Business Central feature. This will be an iterative process guided by the workflow below.
 
-# Role:
-You are a senior business central architect with expertise in the topic
+---
 
-# Target audience:
-* Business central developers.
-* AI Coding agents like Cline and Cursor.
+**User Input:**
 
-# Format:
-* Create the documentation using Markdown format.
-* Create diagrams using mermaid syntax that can be rendered in Markdown
-## Diagram Requirements:
-* Use simple flowcharts for process flows
-* Use entity relationship diagrams for data structures
-* Limit diagram complexity to 15-20 elements per diagram
-* For complex systems, create multiple focused diagrams rather than one comprehensive diagram
+Please provide the following information to start the process:
 
-# Research method:
-- Each time you have done a research, iterate through it again, until the topic is exhausted and actionable.
-- Every step in the document should give a [Comprehensive overview] and a [Detailed technical explanation]
-## Follow a structured iterative research approach:
-* 1\. Initial broad exploration of the topic.
-* 2\. Detailed analysis of each component, prioritizing core functionality first.
-* 3\. Synthesis of relationships between components.
-* 4\. Verification against official documentation and source code.
-* 5\. Documentation of findings with clear citations.
-* 6\. Continue iterations until either:   
-  * 6.1\. Three consecutive iterations produce no significant new information
-  * 6.2\. All specified sections are comprehensively documented with technical accuracy
-  * 6.3\. Integration points across all specified object types are fully documented
+**1. Bare Requirement:**
+[PLACEHOLDER FOR USER'S BARE REQUIREMENT HERE - Describe your raw idea or need for a new Business Central feature concisely.]
 
-# Quick Start Implementation Guide
-* Create a condensed (under 1000 words) implementation guide for the most common scenario
-* Include step-by-step instructions with screenshots
-* Provide a basic AL code template that can be immediately adapted
+**2. Target Business Central Version:**
+[PLACEHOLDER FOR TARGET BC VERSION HERE - E.g., "BC 24 (2024 release wave 1)", "BC 25 (2024 release wave 2)", "Latest SaaS version", "On-premises, version 23". Specify the main version/wave.]
 
-# Business Context:
-* Include for each technical section:
-  * 1\. Business scenarios where this functionality is critical
-  * 2\. Common business requirements that drive implementation decisions
-  * 3\. Industry-specific considerations (manufacturing, retail, distribution, etc.)
+**3. Deployment Type:**
+[PLACEHOLDER FOR DEPLOYMENT TYPE HERE - Specify "SaaS (Cloud)" or "On-Premises".]
 
-# Tasks:
-Create extensive documentation of the topic. including, but not limited to:
-* The philosophy behind it.
-* Overall architecture including diagrams including a description.
-* Diagram over dataflows, including description.
-* Diagram over the source code including description.
+**4. Supporting Information (Optional):**
+[PLACEHOLDER FOR SUPPORTING INFORMATION DESCRIPTION HERE - If you have screenshots, diagrams, or documents, please provide their relevant content in text here. Describe images/diagrams, or copy and paste text snippets from documents. Note: *As an AI, I process text; I cannot directly view image files or interpret complex visual layouts from attachments.*]
 
-## Integration points for the topic for each of the following object types.
-### Codeunits
-Description of procedures and parameters.
-### Enums
-Description of each value.
-### tables
-* Description of the general purpose.
-* Description of all fields.
-### Events
-Description of when to use them.
-### Queries
-Description of what they to.
-### Xmlport
-* Description of the purpose.
-* Description of all fields.
-### Pages
-Description of the purpose.
+---
 
-## How to extend the topic
-Best practices for a developer on the topic with Focus specifically on how Business Central implements the topic according to Microsoft's standard functionality.
+**Workflow (Instructions for the AI to follow after receiving User Input):**
 
-# Code Examples
-## Include code examples that demonstrate:
-* Common usage patterns for the topic
-* Integration with different areas of Business Central
-* Custom extension scenarios
-## All code examples should follow Microsoft's AL coding guidelines.
-* Format all code examples with:
-  * 1\. Descriptive comments explaining each significant block
-  * 2\. Error handling patterns
-  * 3\. Performance considerations noted where relevant
+Once the user provides the input above, proceed with the following iterative steps:
 
-# Troubleshooting Guide:
-* Document common issues and solutions for:
-  * 1\. Performance bottlenecks with large volumes of tracked items
-  * 2\. Data integrity issues and recovery procedures
-  * 3\. Common implementation mistakes and how to avoid them
-  * 4\. Diagnostic tools and techniques for item tracking problems
+1.  **Generate Initial Draft:** Create a first draft of the Feature Description by filling out all sections in the "Feature Description Template" below, based on the User Input provided (Bare Requirement, BC Version, Deployment Type, and Supporting Information description).
+2.  **Present Draft and Solicit Feedback:** Present the generated draft of the Feature Description to the user. After presenting the draft, engage the user by:
+    * Systematically asking clarifying questions about specific sections to gain more detail or resolve ambiguity.
+    * Making suggestions for improving any section (e.g., clearer phrasing, more detail on a specific aspect).
+    * Asking the user for their feedback on the overall draft and specific sections.
+3.  **Receive User Response:** Process the user's response, which will contain their feedback, answers to your questions, and potentially additional information or requests for changes.
+4.  **Revise Draft and Continue:** Based on the user's response, revise the Feature Description draft. Ensure the revisions are consistent with the provided BC Version and Deployment Type. Present the revised draft to the user and return to Step 2 (Present Draft and Solicit Feedback) to continue the refinement process.
+5.  **Finalize:** Continue the iteration (Steps 2-4) until the user explicitly states they are satisfied with the Feature Description. Acknowledge the completion.
 
-# Important documentation:
-* Microsoft Source code for business central apps: https://github.com/StefanMaron/MSDyn365BC.Code.History/tree/w1-25
-* Official documentation on business central: https://learn.microsoft.com/en-us/dynamics365/business-central/
+---
 
-# Verify all technical information against:
-* Official Microsoft documentation.
-* Source code examination (citing specific files/line numbers when possible)
-* Published Microsoft best practices. Flag any contradictions or gaps in the documentation explicitly.
+**Feature Description Template (for AI to fill and iterate on):**
 
-# Citation Requirements
-* For Microsoft documentation references: Include URL, document title, and section
-* For source code references: Include GitHub repository path, file name, and line numbers
-* For best practices: Cite specific Microsoft guides, blog posts, or official examples
-* Flag any conflicting information between sources and explain the recommended approach
+* **Proposed Feature Name (Draft):** [AI GENERATED]
+* **Business Problem Solved:** [AI GENERATED]
+* **Proposed Solution/Feature Summary:** [AI GENERATED]
+* **Target Users:** [AI GENERATED]
+* **Expected Benefits:** [AI GENERATED]
+* **Technical Considerations:** [AI GENERATED]
+* **UI/UX Considerations (Draft):** [AI GENERATED]
+* **Acceptance Criteria/Definition of Done:** [AI GENERATED]
 
-# Related information
-Add a section of at the bottom of the documentation with suggestion for topics for further research
+---
+
+Please copy and paste this entire template into our chat, fill in the `User Input` sections (Bare Requirement, Target Business Central Version, Deployment Type, and optionally Supporting Information), and send it. I will then follow the `Workflow` instructions to generate the initial draft and begin the iterative refinement process with you.
